@@ -13,7 +13,15 @@ fn maybe_icecream(time_of_day: u16) -> Option<u16> {
     // value of 0 The Option output should gracefully handle cases where
     // time_of_day > 23.
     // TODO: Complete the function body - remember to return an Option!
-    ???
+    match time_of_day {
+        // 0-21点（包含）返回5个冰淇淋
+        0..=21 => Some(5),
+        // 22-23点（晚上10点-11点）返回0个
+        22 | 23 => Some(0),
+        // 处理超过23点的非法时间输入
+        _ => None,
+    }
+    
 }
 
 #[cfg(test)]
@@ -34,6 +42,6 @@ mod tests {
         // TODO: Fix this test. How do you get at the value contained in the
         // Option?
         let icecreams = maybe_icecream(12);
-        assert_eq!(icecreams, 5);
+        assert_eq!(icecreams, Some(5));
     }
 }
