@@ -12,7 +12,7 @@ struct PositiveNonzeroInteger(u64);
 enum CreationError {
     Negative,
     Zero,
-}
+} 
 
 impl PositiveNonzeroInteger {
     fn new(value: i64) -> Result<PositiveNonzeroInteger, CreationError> {

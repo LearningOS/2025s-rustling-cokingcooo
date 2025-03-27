@@ -30,7 +30,7 @@ pub fn capitalize_words_vector(words: &[&str]) -> Vec<String> {
     }
     res
 }
-
+ 
 // Step 3.
 // Apply the `capitalize_first` function again to a slice of string slices.
 // Return a single string.

@@ -151,7 +151,7 @@ mod tests {
 			assert_eq!(reverse_vec[i],*list.get(i as i32).unwrap());
 		}
 	}
-
+ 
 	#[test]
 	fn test_reverse_linked_list_2() {
 		let mut list = LinkedList::<i32>::new();

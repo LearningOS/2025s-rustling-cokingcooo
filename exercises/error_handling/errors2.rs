@@ -32,7 +32,7 @@ pub fn total_cost(item_quantity: &str) -> Result<i32, ParseIntError> {
         Err(e) => Err(e), // 直接返回错误
     }
 }
-
+ 
 #[cfg(test)]
 mod tests {
     use super::*;

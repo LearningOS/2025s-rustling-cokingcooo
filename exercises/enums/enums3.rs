@@ -14,7 +14,7 @@ enum Message {
     ChangeColor(u8,u8,u8),
     Quit,
 }
-
+ 
 struct Point {
     x: u8,
     y: u8,

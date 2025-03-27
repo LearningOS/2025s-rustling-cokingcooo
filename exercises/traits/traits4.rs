@@ -14,7 +14,7 @@ pub trait Licensed {
         "some information".to_string()
     }
 }
-
+ 
 struct SomeSoftware {}
 
 struct OtherSoftware {}

@@ -13,7 +13,7 @@ enum Message {
     ChangeColor(i32,i32,i32),
     Quit,
 }
-
+ 
 impl Message {
     fn call(&self) {
         println!("{:?}", self);

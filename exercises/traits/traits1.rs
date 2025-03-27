@@ -20,7 +20,7 @@ impl AppendBar for String {
        self
     }
 }
-
+ 
 fn main() {
     let s = String::from("Foo");
     let s = s.append_bar();

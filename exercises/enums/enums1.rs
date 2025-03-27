@@ -12,7 +12,7 @@ enum Message {
     Move,
     ChangeColor,
 }
-
+ 
 fn main() {
     println!("{:?}", Message::Quit);
     println!("{:?}", Message::Echo);

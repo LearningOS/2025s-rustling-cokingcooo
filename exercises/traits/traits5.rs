@@ -19,7 +19,7 @@ pub trait OtherTrait {
     fn other_function(&self) -> bool {
         true
     }
-}
+} 
 
 struct SomeStruct {}
 struct OtherStruct {}

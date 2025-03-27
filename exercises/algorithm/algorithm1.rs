@@ -185,7 +185,7 @@ mod tests {
 		let vec_a = vec![11,33,44,88,89,90,100];
 		let vec_b = vec![1,22,30,45];
 		let target_vec = vec![1,11,22,30,33,44,45,88,89,90,100];
-
+ 
 		for i in 0..vec_a.len(){
 			list_a.add(vec_a[i]);
 		}

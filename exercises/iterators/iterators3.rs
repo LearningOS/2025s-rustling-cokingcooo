@@ -44,7 +44,7 @@ fn result_with_list() -> Result<Vec<i32>, DivisionError> {
     let division_results = numbers.into_iter().map(|n| divide(n, 27)).collect::<Result<Vec<i32>, DivisionError>>();
     division_results
 }
-
+ 
 // Complete the function and return a value of the correct type so the test
 // passes.
 // Desired output: [Ok(1), Ok(11), Ok(1426), Ok(3)]
