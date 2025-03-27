@@ -21,5 +21,5 @@ fn is_a_color_word(attempt: &str) -> bool {
         return true
     }
     return false
-     
+      
 }

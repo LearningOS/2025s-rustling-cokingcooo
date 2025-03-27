@@ -13,6 +13,7 @@ fn main() {
 }
 
 fn current_favorite_color() -> String {
-    let s = String::from("blue");
-    s
+  
+  "blue".to_string()
+
 }

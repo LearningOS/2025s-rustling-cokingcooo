@@ -42,6 +42,7 @@ mod Foo {
         a
     }
 }
+ 
 
 #[cfg(test)]
 mod tests {
